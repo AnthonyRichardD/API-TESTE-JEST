@@ -1,0 +1,26 @@
+# Arquivos e diretórios gerados pelo Node.js
+node_modules/
+
+# Arquivos de log e saída de depuração
+logs/
+*.log
+npm-debug.log*
+
+# Arquivos de configuração específicos do desenvolvedor
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+
+# Arquivos de saída de teste gerados pelo Jest
+coverage/
+
+# Arquivos de dependências de desenvolvimento (por exemplo, Babel, Webpack)
+# Remova essas linhas se você quiser controlar esses arquivos
+babel.config.js
+webpack.config.js
